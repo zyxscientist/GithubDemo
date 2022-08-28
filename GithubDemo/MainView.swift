@@ -11,12 +11,10 @@ import SwiftUI
 
 struct MainView: View {
     var body: some View {
-        VStack {
+        ZStack {
+            Color.red.ignoresSafeArea()
             Text("This is a change")
                 .padding()
-            Button(/*@START_MENU_TOKEN@*/"Button"/*@END_MENU_TOKEN@*/) {
-                // no action by now
-            }
         }
     }
 }
