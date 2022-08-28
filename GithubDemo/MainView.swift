@@ -13,8 +13,13 @@ struct MainView: View {
     var body: some View {
         ZStack {
             Color.red.ignoresSafeArea()
-            Text("This is a change")
-                .padding()
+            VStack {
+                Text("This is a change")
+                    .padding()
+                Button(/*@START_MENU_TOKEN@*/"Button"/*@END_MENU_TOKEN@*/) {
+                    /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/
+                }
+            }
         }
     }
 }
