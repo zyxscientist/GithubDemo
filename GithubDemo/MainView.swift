@@ -9,10 +9,10 @@ import SwiftUI
 
 // MARK: 等下转移到MBP2021去操作，这里太卡了
 
-struct ContentView: View {
+struct MainView: View {
     var body: some View {
         VStack {
-            Text("this is a change")
+            Text("This is a change")
                 .padding()
             Button(/*@START_MENU_TOKEN@*/"Button"/*@END_MENU_TOKEN@*/) {
                 // no action by now
@@ -23,6 +23,6 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        MainView()
     }
 }
