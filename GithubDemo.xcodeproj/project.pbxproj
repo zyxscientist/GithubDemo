@@ -11,6 +11,7 @@
 		C2B9B8A228BB46C5002856D3 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B9B8A128BB46C5002856D3 /* MainView.swift */; };
 		C2B9B8A428BB46C7002856D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2B9B8A328BB46C7002856D3 /* Assets.xcassets */; };
 		C2B9B8A728BB46C7002856D3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2B9B8A628BB46C7002856D3 /* Preview Assets.xcassets */; };
+		C2B9B8B028BB49A4002856D3 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B9B8AF28BB49A4002856D3 /* SecondView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		C2B9B8A128BB46C5002856D3 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		C2B9B8A328BB46C7002856D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C2B9B8A628BB46C7002856D3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C2B9B8AF28BB49A4002856D3 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				C2B9B89F28BB46C5002856D3 /* GithubDemoApp.swift */,
+				C2B9B8AF28BB49A4002856D3 /* SecondView.swift */,
 				C2B9B8A128BB46C5002856D3 /* MainView.swift */,
 				C2B9B8A328BB46C7002856D3 /* Assets.xcassets */,
 				C2B9B8A528BB46C7002856D3 /* Preview Content */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2B9B8B028BB49A4002856D3 /* SecondView.swift in Sources */,
 				C2B9B8A228BB46C5002856D3 /* MainView.swift in Sources */,
 				C2B9B8A028BB46C5002856D3 /* GithubDemoApp.swift in Sources */,
 			);
