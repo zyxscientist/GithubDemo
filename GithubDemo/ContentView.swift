@@ -7,10 +7,17 @@
 
 import SwiftUI
 
+// MARK: 等下转移到MBP2021去操作，这里太卡了
+
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack {
+            Text("this is a change")
+                .padding()
+            Button(/*@START_MENU_TOKEN@*/"Button"/*@END_MENU_TOKEN@*/) {
+                // no action by now
+            }
+        }
     }
 }
 
