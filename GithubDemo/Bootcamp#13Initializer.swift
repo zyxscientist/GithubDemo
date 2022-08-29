@@ -9,7 +9,7 @@ import SwiftUI
 
 struct Bootcamp_13Initializer: View {
     
-    var color: Color = Color.red
+    var color: Color
     var count: Int
     var title: String
     
