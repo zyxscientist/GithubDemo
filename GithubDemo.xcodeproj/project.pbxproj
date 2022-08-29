@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		840D1E0228BC8B6D0088A665 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840D1E0128BC8B6D0088A665 /* SwiftUIView.swift */; };
+		840D1E0228BC8B6D0088A665 /* Bootcamp#19State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840D1E0128BC8B6D0088A665 /* Bootcamp#19State.swift */; };
 		C292598528BB627E001134BE /* Bootcamp#13Initializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C292598428BB627E001134BE /* Bootcamp#13Initializer.swift */; };
 		C2B9B8A028BB46C5002856D3 /* GithubDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B9B89F28BB46C5002856D3 /* GithubDemoApp.swift */; };
 		C2B9B8A228BB46C5002856D3 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B9B8A128BB46C5002856D3 /* MainView.swift */; };
@@ -17,7 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		840D1E0128BC8B6D0088A665 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		840D1E0128BC8B6D0088A665 /* Bootcamp#19State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bootcamp#19State.swift"; sourceTree = "<group>"; };
 		C292598428BB627E001134BE /* Bootcamp#13Initializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bootcamp#13Initializer.swift"; sourceTree = "<group>"; };
 		C2B9B89C28BB46C5002856D3 /* GithubDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GithubDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2B9B89F28BB46C5002856D3 /* GithubDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubDemoApp.swift; sourceTree = "<group>"; };
@@ -57,8 +57,8 @@
 		C2B9B89E28BB46C5002856D3 /* GithubDemo */ = {
 			isa = PBXGroup;
 			children = (
-				840D1E0128BC8B6D0088A665 /* SwiftUIView.swift */,
 				C292598428BB627E001134BE /* Bootcamp#13Initializer.swift */,
+				840D1E0128BC8B6D0088A665 /* Bootcamp#19State.swift */,
 				C2B9B89F28BB46C5002856D3 /* GithubDemoApp.swift */,
 				C2B9B8AF28BB49A4002856D3 /* SecondView.swift */,
 				C2B9B8A128BB46C5002856D3 /* MainView.swift */,
@@ -150,7 +150,7 @@
 				C2B9B8A228BB46C5002856D3 /* MainView.swift in Sources */,
 				C2B9B8A028BB46C5002856D3 /* GithubDemoApp.swift in Sources */,
 				C292598528BB627E001134BE /* Bootcamp#13Initializer.swift in Sources */,
-				840D1E0228BC8B6D0088A665 /* SwiftUIView.swift in Sources */,
+				840D1E0228BC8B6D0088A665 /* Bootcamp#19State.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
