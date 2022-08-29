@@ -28,23 +28,51 @@ struct Bootcamp_19_State: View {
                     .font(.system(size: 42, design:.rounded))
                     .bold()
                 
-                HStack(spacing: 20){
-                    Button("Button 1") {
-                        backgroundColor = .red
-                        title = "Red"
-                        count += 1
+                VStack {
+                    HStack(spacing: 20){
+                        Button("Button 1") {
+                            backgroundColor = .red
+                            title = "Red"
+                            count += 1
+                        }
+                        
+                        Button("Button 2") {
+                            backgroundColor = .purple
+                            title = "Purple"
+                            count += 1
+                        }
+                        
                     }
-                    
-                    Button("Button 2") {
-                        backgroundColor = .purple
-                        title = "Purple"
-                        count += 1
-                    }
+                    SoildButton(backgroundColor: $backgroundColor, title: $title, count: $count)
                 }
                 
             }.foregroundColor(.white)
         }
     }
+}
+
+struct SoildButton: View { // 子视图
+    
+    @Binding var backgroundColor: Color
+    @Binding var title: String
+    @Binding var count: Int
+    
+    var body: some View {
+        Button(action: {
+            backgroundColor = .black
+            title = "Black"
+            count = 0
+        },
+               label: {
+            Text("Reset")
+                .foregroundColor(.white)
+                .padding()
+                .padding(.horizontal)
+                .background(.teal)
+                .clipShape(RoundedRectangle(cornerRadius: 10.0, style: .continuous))
+        })
+    }
+    
 }
 
 struct Bootcamp_19_State_Previews: PreviewProvider {
