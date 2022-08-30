@@ -9,16 +9,12 @@ import SwiftUI
 
 struct BootcampViewModel: View {
     
-//    @State var fruitArray : [FruitModel] = [
-//        FruitModel(name: "Apple", count: 7),
-//    ]
-    
     @StateObject var fruitViewModel: FruitViewModel = FruitViewModel()
     
     var body: some View {
         NavigationView {
             List { // 在SwiftUI里面，list 是一个复杂且功能强大的组件
-                ForEach(fruitViewModel.fruitArray) { fruitArray in // 看起来怪怪但就是如此的
+                ForEach(fruitViewModel.fruitArray) { fruitArray in // ForEach看起来怪怪但就是如此的
                     HStack{
                         Text("\(fruitArray.count)")
                             .font(.system(size: 16, weight: .semibold, design: .rounded))
