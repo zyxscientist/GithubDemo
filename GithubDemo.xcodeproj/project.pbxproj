@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		840D1E0228BC8B6D0088A665 /* Bootcamp#19State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840D1E0128BC8B6D0088A665 /* Bootcamp#19State.swift */; };
+		C26D7B3F28BDFF5D00788E0C /* BootcampViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26D7B3E28BDFF5D00788E0C /* BootcampViewModel.swift */; };
+		C26D7B4228BE1C6100788E0C /* FruitModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26D7B4128BE1C6100788E0C /* FruitModel.swift */; };
 		C292598528BB627E001134BE /* Bootcamp#13Initializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C292598428BB627E001134BE /* Bootcamp#13Initializer.swift */; };
 		C2B9B8A028BB46C5002856D3 /* GithubDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B9B89F28BB46C5002856D3 /* GithubDemoApp.swift */; };
 		C2B9B8A228BB46C5002856D3 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B9B8A128BB46C5002856D3 /* MainView.swift */; };
@@ -18,6 +20,8 @@
 
 /* Begin PBXFileReference section */
 		840D1E0128BC8B6D0088A665 /* Bootcamp#19State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bootcamp#19State.swift"; sourceTree = "<group>"; };
+		C26D7B3E28BDFF5D00788E0C /* BootcampViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BootcampViewModel.swift; sourceTree = "<group>"; };
+		C26D7B4128BE1C6100788E0C /* FruitModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitModel.swift; sourceTree = "<group>"; };
 		C292598428BB627E001134BE /* Bootcamp#13Initializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bootcamp#13Initializer.swift"; sourceTree = "<group>"; };
 		C2B9B89C28BB46C5002856D3 /* GithubDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GithubDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2B9B89F28BB46C5002856D3 /* GithubDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubDemoApp.swift; sourceTree = "<group>"; };
@@ -38,6 +42,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C26D7B4028BDFF7300788E0C /* ObservableObject&StateObject */ = {
+			isa = PBXGroup;
+			children = (
+				C26D7B3E28BDFF5D00788E0C /* BootcampViewModel.swift */,
+				C26D7B4128BE1C6100788E0C /* FruitModel.swift */,
+			);
+			path = "ObservableObject&StateObject";
+			sourceTree = "<group>";
+		};
 		C2B9B89328BB46C5002856D3 = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				C292598428BB627E001134BE /* Bootcamp#13Initializer.swift */,
+				C26D7B4028BDFF7300788E0C /* ObservableObject&StateObject */,
 				840D1E0128BC8B6D0088A665 /* Bootcamp#19State.swift */,
 				C2B9B89F28BB46C5002856D3 /* GithubDemoApp.swift */,
 				C2B9B8AF28BB49A4002856D3 /* SecondView.swift */,
@@ -147,8 +161,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C2B9B8B028BB49A4002856D3 /* SecondView.swift in Sources */,
+				C26D7B4228BE1C6100788E0C /* FruitModel.swift in Sources */,
 				C2B9B8A228BB46C5002856D3 /* MainView.swift in Sources */,
 				C2B9B8A028BB46C5002856D3 /* GithubDemoApp.swift in Sources */,
+				C26D7B3F28BDFF5D00788E0C /* BootcampViewModel.swift in Sources */,
 				C292598528BB627E001134BE /* Bootcamp#13Initializer.swift in Sources */,
 				840D1E0228BC8B6D0088A665 /* Bootcamp#19State.swift in Sources */,
 			);
