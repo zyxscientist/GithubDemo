@@ -34,7 +34,7 @@ struct Bootcamp31List: View {
                             Text(player.club)
                                 .font(.system(size: 13, weight: .regular, design: .rounded))
                                 .foregroundColor(.gray)
-                        }
+                        }.listRowSeparatorTint(Color.red)
                     }
                     .onMove(perform: { fromIndex, toIndex in
                         moveItem(fromIndex: fromIndex, toIndex: toIndex)
@@ -49,11 +49,12 @@ struct Bootcamp31List: View {
                 }
                 
                 ToolbarItemGroup(placement: .navigationBarTrailing){
-                    // MARK: ADD BTN
+                    Button("Add") {
+                        // some function adding item to the array
+                    }
                 }
-            }
-                .navigationTitle("MFC")
-                .listStyle(DefaultListStyle())
+            }.navigationTitle("MFC")
+            .listStyle(DefaultListStyle())
             }
         }
     
