@@ -26,7 +26,7 @@ class DeviceViewModel:ObservableObject {
 
 struct BootcampEnvironmentObject: View {
     
-    @StateObject var device: DeviceViewModel = DeviceViewModel()
+    @StateObject var device = DeviceViewModel()
     
     var body: some View {
         NavigationView {
