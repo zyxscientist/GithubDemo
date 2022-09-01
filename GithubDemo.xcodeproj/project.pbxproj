@@ -46,6 +46,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C249EB9C28C0B638003EC045 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				840D1E0128BC8B6D0088A665 /* Bootcamp#19State.swift */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 		C26D7B4028BDFF7300788E0C /* ObservableObject&StateObject */ = {
 			isa = PBXGroup;
 			children = (
@@ -78,7 +86,7 @@
 				C281D14128BF8D6F00CB4224 /* BootcampEnvironmentObject.swift */,
 				C26D7B4028BDFF7300788E0C /* ObservableObject&StateObject */,
 				C281D13F28BE3E8100CB4224 /* Bootcamp31List.swift */,
-				840D1E0128BC8B6D0088A665 /* Bootcamp#19State.swift */,
+				C249EB9C28C0B638003EC045 /* New Group */,
 				C2B9B89F28BB46C5002856D3 /* GithubDemoApp.swift */,
 				C2B9B8AF28BB49A4002856D3 /* SecondView.swift */,
 				C2B9B8A128BB46C5002856D3 /* MainView.swift */,

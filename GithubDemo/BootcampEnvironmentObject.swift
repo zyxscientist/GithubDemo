@@ -14,7 +14,7 @@ struct DeviceType: Identifiable {
 
 class DeviceViewModel:ObservableObject {
     
-    @Published var deviceViewModel: [DeviceType] = []
+    @Published var deviceViewModel: [DeviceType] = [] // 数组
     
     init(){
         deviceViewModel.append(contentsOf: [DeviceType(name: "iPhone")])
@@ -26,20 +26,19 @@ class DeviceViewModel:ObservableObject {
 
 struct BootcampEnvironmentObject: View {
     
-    @StateObject var device = DeviceViewModel()
+    @StateObject var viewModel = DeviceViewModel() // DeviceViewModel() 类
     
     var body: some View {
         NavigationView {
             List{
-                ForEach(device.deviceViewModel) { device in
+                ForEach(viewModel.deviceViewModel) { device in
                     NavigationLink {
-                        SecondPage(deviceName: device.name, deviceInSecondPage: self.device)
+                        SecondPage(deviceName: device.name, deviceInSecondPage: self.viewModel)
                     } label: {
                         Text(device.name)
                             .font(.system(size: 16, weight: .semibold, design: .rounded))
                     }
-
-                    }
+                }
             }.navigationTitle("Device List")
         }
     }
