@@ -12,7 +12,7 @@ struct DeviceType: Identifiable {
     var name: String
 }
 
-class DeviceViewModel:ObservableObject {
+class DeviceViewModel: ObservableObject {
     
     @Published var deviceViewModel: [DeviceType] = []
     
@@ -33,26 +33,24 @@ struct BootcampEnvironmentObject: View {
             List{
                 ForEach(device.deviceViewModel) { device in
                     NavigationLink {
-                        SecondPage(deviceName: device.name, deviceInSecondPage: self.device)
+                        SecondPage(deviceName: device.name)
                     } label: {
                         Text(device.name)
                             .font(.system(size: 16, weight: .semibold, design: .rounded))
                     }
-
-                    }
+                }
             }.navigationTitle("Device List")
-        }
+        }.environmentObject(device)
     }
 }
 
 struct SecondPage: View{
     
     let deviceName: String
-    @ObservedObject var deviceInSecondPage: DeviceViewModel
     
     var body: some View{
         NavigationLink {
-            ThirdPage(viewModel: deviceInSecondPage)
+            ThirdPage()
         } label: {
             Text(deviceName)
                 .font(.system(size: 36, weight: .semibold, design: .rounded))
@@ -67,7 +65,7 @@ struct SecondPage: View{
 
 struct ThirdPage: View{
     
-    @ObservedObject var viewModel: DeviceViewModel
+  @EnvironmentObject var viewModel: DeviceViewModel
     
     var body: some View{
         ForEach(viewModel.deviceViewModel) { item in
