@@ -63,7 +63,7 @@ struct Bootcamp31List: View {
         }
     
         func moveItem(fromIndex: IndexSet, toIndex: Int){
-                player.move(fromOffsets: fromIndex, toOffset: toIndex)
+            player.move(fromOffsets: fromIndex, toOffset: toIndex)
         }
     }
 
