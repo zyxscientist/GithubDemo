@@ -11,22 +11,6 @@ import SwiftUI
 
 struct MainView: View {
     var body: some View {
-        ZStack {
-            Color.red.ignoresSafeArea()
-            VStack {
-                Text("This is a change")
-                    .padding()
-                Button(/*@START_MENU_TOKEN@*/"Button"/*@END_MENU_TOKEN@*/) {
-                    /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/
-                }.padding()
-                Text("This line added from the laptop")
-            }
-        }
-    }
-}
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        MainView()
+        _2AppStorageBootcamp()
     }
 }

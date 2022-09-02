@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		840D1E0228BC8B6D0088A665 /* Bootcamp#19State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840D1E0128BC8B6D0088A665 /* Bootcamp#19State.swift */; };
+		C249EB9E28C1BAFD003EC045 /* 52AppStorageBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C249EB9D28C1BAFD003EC045 /* 52AppStorageBootcamp.swift */; };
 		C26D7B3F28BDFF5D00788E0C /* BootcampViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26D7B3E28BDFF5D00788E0C /* BootcampViewModel.swift */; };
 		C26D7B4228BE1C6100788E0C /* FruitModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26D7B4128BE1C6100788E0C /* FruitModel.swift */; };
 		C281D14028BE3E8100CB4224 /* Bootcamp31List.swift in Sources */ = {isa = PBXBuildFile; fileRef = C281D13F28BE3E8100CB4224 /* Bootcamp31List.swift */; };
@@ -22,6 +23,7 @@
 
 /* Begin PBXFileReference section */
 		840D1E0128BC8B6D0088A665 /* Bootcamp#19State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bootcamp#19State.swift"; sourceTree = "<group>"; };
+		C249EB9D28C1BAFD003EC045 /* 52AppStorageBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 52AppStorageBootcamp.swift; sourceTree = "<group>"; };
 		C26D7B3E28BDFF5D00788E0C /* BootcampViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BootcampViewModel.swift; sourceTree = "<group>"; };
 		C26D7B4128BE1C6100788E0C /* FruitModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitModel.swift; sourceTree = "<group>"; };
 		C281D13F28BE3E8100CB4224 /* Bootcamp31List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bootcamp31List.swift; sourceTree = "<group>"; };
@@ -46,14 +48,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C249EB9C28C0B638003EC045 /* New Group */ = {
-			isa = PBXGroup;
-			children = (
-				840D1E0128BC8B6D0088A665 /* Bootcamp#19State.swift */,
-			);
-			path = "New Group";
-			sourceTree = "<group>";
-		};
 		C26D7B4028BDFF7300788E0C /* ObservableObject&StateObject */ = {
 			isa = PBXGroup;
 			children = (
@@ -84,9 +78,10 @@
 			children = (
 				C292598428BB627E001134BE /* Bootcamp#13Initializer.swift */,
 				C281D14128BF8D6F00CB4224 /* BootcampEnvironmentObject.swift */,
+				C249EB9D28C1BAFD003EC045 /* 52AppStorageBootcamp.swift */,
 				C26D7B4028BDFF7300788E0C /* ObservableObject&StateObject */,
 				C281D13F28BE3E8100CB4224 /* Bootcamp31List.swift */,
-				C249EB9C28C0B638003EC045 /* New Group */,
+				840D1E0128BC8B6D0088A665 /* Bootcamp#19State.swift */,
 				C2B9B89F28BB46C5002856D3 /* GithubDemoApp.swift */,
 				C2B9B8AF28BB49A4002856D3 /* SecondView.swift */,
 				C2B9B8A128BB46C5002856D3 /* MainView.swift */,
@@ -175,6 +170,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C2B9B8B028BB49A4002856D3 /* SecondView.swift in Sources */,
+				C249EB9E28C1BAFD003EC045 /* 52AppStorageBootcamp.swift in Sources */,
 				C26D7B4228BE1C6100788E0C /* FruitModel.swift in Sources */,
 				C2B9B8A228BB46C5002856D3 /* MainView.swift in Sources */,
 				C2B9B8A028BB46C5002856D3 /* GithubDemoApp.swift in Sources */,
