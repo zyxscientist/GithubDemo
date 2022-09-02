@@ -40,7 +40,7 @@ struct BootcampEnvironmentObject: View {
                     }
                 }
             }.navigationTitle("Device List")
-        }.environmentObject(device)
+        }.environmentObject(viewModel)
     }
 }
 
