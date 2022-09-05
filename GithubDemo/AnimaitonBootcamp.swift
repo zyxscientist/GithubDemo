@@ -49,17 +49,15 @@ struct AnimaitonBootcamp: View {
                 }
                 Spacer()
             }
-            
-            
-            if showSheet {
+
+                if showSheet {
                     RoundedRectangle(cornerRadius: 33, style: .continuous)
                         .frame(height: UIScreen.main.bounds.height * 0.5)
                         .transition(.move(edge: .bottom))
                         .foregroundColor(.pink)
-            }
-            
-        }.edgesIgnoringSafeArea(.bottom)
-    }
+                }
+            }.edgesIgnoringSafeArea(.bottom)
+        }
 }
 
 struct AnimaitonBootcamp_Previews: PreviewProvider {
