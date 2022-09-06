@@ -11,6 +11,8 @@
 		C23C2BEC28C59F840010D1F2 /* Alert32.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23C2BEB28C59F840010D1F2 /* Alert32.swift */; };
 		C23C2BEE28C5D5220010D1F2 /* ContextMenu34.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23C2BED28C5D5220010D1F2 /* ContextMenu34.swift */; };
 		C23C2BF028C5EC9D0010D1F2 /* TextField35.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23C2BEF28C5EC9D0010D1F2 /* TextField35.swift */; };
+		C23C2BF428C71C620010D1F2 /* TextEditor36.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23C2BF328C71C620010D1F2 /* TextEditor36.swift */; };
+		C23C2BF628C7214C0010D1F2 /* LazyGrid16.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23C2BF528C7214C0010D1F2 /* LazyGrid16.swift */; };
 		C249EB9E28C1BAFD003EC045 /* 52AppStorageBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C249EB9D28C1BAFD003EC045 /* 52AppStorageBootcamp.swift */; };
 		C249EBA028C1DD0A003EC045 /* NavigationView30.swift in Sources */ = {isa = PBXBuildFile; fileRef = C249EB9F28C1DD0A003EC045 /* NavigationView30.swift */; };
 		C249EBA428C1ED77003EC045 /* AnimaitonBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C249EBA328C1ED77003EC045 /* AnimaitonBootcamp.swift */; };
@@ -32,6 +34,8 @@
 		C23C2BEB28C59F840010D1F2 /* Alert32.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert32.swift; sourceTree = "<group>"; };
 		C23C2BED28C5D5220010D1F2 /* ContextMenu34.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextMenu34.swift; sourceTree = "<group>"; };
 		C23C2BEF28C5EC9D0010D1F2 /* TextField35.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField35.swift; sourceTree = "<group>"; };
+		C23C2BF328C71C620010D1F2 /* TextEditor36.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditor36.swift; sourceTree = "<group>"; };
+		C23C2BF528C7214C0010D1F2 /* LazyGrid16.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyGrid16.swift; sourceTree = "<group>"; };
 		C249EB9D28C1BAFD003EC045 /* 52AppStorageBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 52AppStorageBootcamp.swift; sourceTree = "<group>"; };
 		C249EB9F28C1DD0A003EC045 /* NavigationView30.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationView30.swift; sourceTree = "<group>"; };
 		C249EBA328C1ED77003EC045 /* AnimaitonBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimaitonBootcamp.swift; sourceTree = "<group>"; };
@@ -101,6 +105,8 @@
 				C23C2BEB28C59F840010D1F2 /* Alert32.swift */,
 				C23C2BED28C5D5220010D1F2 /* ContextMenu34.swift */,
 				C23C2BEF28C5EC9D0010D1F2 /* TextField35.swift */,
+				C23C2BF328C71C620010D1F2 /* TextEditor36.swift */,
+				C23C2BF528C7214C0010D1F2 /* LazyGrid16.swift */,
 				C2B9B8AF28BB49A4002856D3 /* SecondView.swift */,
 				C2B9B8A128BB46C5002856D3 /* MainView.swift */,
 				C2B9B8A328BB46C7002856D3 /* Assets.xcassets */,
@@ -193,9 +199,11 @@
 				C2B9B8A228BB46C5002856D3 /* MainView.swift in Sources */,
 				C2B9B8A028BB46C5002856D3 /* GithubDemoApp.swift in Sources */,
 				C249EBA628C323D3003EC045 /* Sheet28.swift in Sources */,
+				C23C2BF428C71C620010D1F2 /* TextEditor36.swift in Sources */,
 				C281D14028BE3E8100CB4224 /* Bootcamp31List.swift in Sources */,
 				C249EBA028C1DD0A003EC045 /* NavigationView30.swift in Sources */,
 				C249EBA428C1ED77003EC045 /* AnimaitonBootcamp.swift in Sources */,
+				C23C2BF628C7214C0010D1F2 /* LazyGrid16.swift in Sources */,
 				C23C2BEC28C59F840010D1F2 /* Alert32.swift in Sources */,
 				C23C2BEE28C5D5220010D1F2 /* ContextMenu34.swift in Sources */,
 				C26D7B3F28BDFF5D00788E0C /* BootcampViewModel.swift in Sources */,
