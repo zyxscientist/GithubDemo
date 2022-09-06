@@ -92,6 +92,7 @@
 		C2B9B89E28BB46C5002856D3 /* GithubDemo */ = {
 			isa = PBXGroup;
 			children = (
+				C23C2BF528C7214C0010D1F2 /* LazyGrid16.swift */,
 				C292598428BB627E001134BE /* Bootcamp#13Initializer.swift */,
 				C281D14128BF8D6F00CB4224 /* BootcampEnvironmentObject.swift */,
 				C249EB9D28C1BAFD003EC045 /* 52AppStorageBootcamp.swift */,
@@ -106,7 +107,6 @@
 				C23C2BED28C5D5220010D1F2 /* ContextMenu34.swift */,
 				C23C2BEF28C5EC9D0010D1F2 /* TextField35.swift */,
 				C23C2BF328C71C620010D1F2 /* TextEditor36.swift */,
-				C23C2BF528C7214C0010D1F2 /* LazyGrid16.swift */,
 				C2B9B8AF28BB49A4002856D3 /* SecondView.swift */,
 				C2B9B8A128BB46C5002856D3 /* MainView.swift */,
 				C2B9B8A328BB46C7002856D3 /* Assets.xcassets */,
